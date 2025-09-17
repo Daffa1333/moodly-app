@@ -19,9 +19,9 @@ platform visual untuk berbagi dan menyimpan inspirasi.
 
 #### **2. Target Pengguna**
 * **Persona Pengguna:**
-    * **Desainer Grafis :** Mencari inspirasi untuk proyek desainnya. Dia butuh fitur pencarian yang spesifik (misalnya, "palet warna vintage" atau "tipografi modern").
-    * **Fotografer:** Ingin berbagi hasil fotonya dan mendapatkan apresiasi. Dia butuh fitur unggah yang mudah dan interaksi sosial seperti `like` atau komentar.
-    * **Mahasiswi:** Suka menyimpan ide untuk dekorasi kamar atau resep masakan. Dia butuh fitur simpan dan unduh gambar dengan cepat.
+    * **Desainer Grafis :** Mencari inspirasi untuk proyek desainnya. Mereka butuh fitur pencarian yang spesifik (misalnya, "palet warna vintage" atau "tipografi modern").
+    * **Fotografer:** Ingin berbagi hasil fotonya dan mendapatkan apresiasi. Mereka butuh fitur unggah yang mudah dan interaksi sosial seperti `like` atau komentar.
+    * **Mahasiswi:** Suka menyimpan ide untuk dekorasi kamar atau lainnya. Mereka butuh fitur simpan dan unduh gambar dengan cepat.
 
 #### **3. Fitur Utama**
 Berikut adalah daftar fitur utama yang akan dikembangkan di aplikasi.
