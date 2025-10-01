@@ -1,0 +1,59 @@
+body {
+    margin: 0 0 80px 0; /* Memberi ruang untuk bottom-nav */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.gallery-container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.gallery-column img {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item img {
+    height: 24px;
+}
+
+.nav-item.add img {
+    height: 36px;
+}
+
+/* Ganti warna ikon aktif sesuai kebutuhan */
+.nav-item.active img {
+    filter: invert(20%) sepia(84%) saturate(3756%) hue-rotate(244deg) brightness(91%) contrast(93%);
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.login-container {
+    max-width: 428px; /* Ukuran iPhone 14 Pro Max width */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-grid {
+    position: relative;
+    height: 350px; /* Perkiraan tinggi area gambar */
+    margin-bottom: 20px;
+}
+
+.grid-img {
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+/* Posisi dan ukuran gambar disesuaikan agar mirip desain */
+.img1 { top: 20px; left: 20px; width: 120px; height: 80px; }
+.img2 { top: 120px; left: 40px; width: 100px; height: 150px; }
+.img3 { top: 40px; right: 20px; width: 90px; height: 90px; }
+.img4 { top: 150px; right: 100px; width: 180px; height: 130px; transform: rotate(5deg); z-index: 1; }
+.img5 { top: 250px; right: 20px; width: 130px; height: 90px; }
+
+.login-form {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.login-form .logo {
+    width: 60px; /* Ukuran logo lebih kecil di halaman login */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.login-form h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary {
+    background-color: #4A37B1;
+    color: white;
+}
+
+.btn-facebook {
+    background-color: #1877F2;
+    color: white;
+}
+
+.btn-google {
+    background-color: #F2F2F2;
+    color: #757575;
+    border: 1px solid #E0E0E0;
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.terms {
+    font-size: 11px;
+    color: #828282;
+    line-height: 1.5;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
