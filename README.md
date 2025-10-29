@@ -15,15 +15,29 @@ platform visual untuk berbagi dan menyimpan inspirasi.
     * Menyediakan `feed` gambar yang relevan dan personal.
     * Memungkinkan pengguna untuk mengunggah dan berbagi kreasi mereka.
     * Menawarkan fitur pencarian yang akurat dan cepat.
-    * Membangun komunitas pengguna yang aktif.
+    * Membangun komunitas pengguna yang aktif melalui interaksi (`like`, `comment`, `follow`).
 
-#### **2. Target Pengguna**
+#### 2. Pembeda Strategis (Positioning Moodly vs. Pinterest)
+
+Bagian ini secara eksplisit mendefinisikan "mengapa" kita berbeda, menggunakan fitur yang *sudah ada*.
+
+| Aspek | Pinterest (Aplikasi Rujukan) | Moodly (Aplikasi Kita) |
+| :--- | :--- | :--- |
+| **Fokus Utama** | **Penemuan & Penyimpanan** (Discovery & Saving) | **Kreasi & Apresiasi** (Creation & Appreciation) |
+| **Bintang Utama** | **Konten (Pin)**. Fokusnya adalah pada gambar/ide itu sendiri. | **Kreator (Profil)**. Fokusnya adalah pada *siapa* yang membuat gambar tersebut. |
+| **Nilai `Upload`** | **Sekunder.** Sebagian besar konten adalah *re-pin* (menyimpan ulang) dari web. | **Primer.** Fitur `Upload` adalah inti aplikasi, mendorong konten orisinal. |
+| **Model Interaksi** | **Individualistis.** Pengguna menyimpan ide ke papan pribadi mereka. | **Sosial & Komunitas.** Pengguna berinteraksi langsung dengan kreator (Like, Follow, Notifikasi). |
+| **Target Utama** | "Perencana" (Orang yang mencari ide untuk dibeli atau dilakukan). | "Kreator" & "Pengagum" (Orang yang ingin memamerkan karya atau mencari inspirasi murni). |
+
+---
+
+#### **3. Target Pengguna**
 * **Persona Pengguna:**
     * **Desainer Grafis :** Mencari inspirasi untuk proyek desainnya. Mereka butuh fitur pencarian yang spesifik (misalnya, "palet warna vintage" atau "tipografi modern").
     * **Fotografer:** Ingin berbagi hasil fotonya dan mendapatkan apresiasi. Mereka butuh fitur unggah yang mudah dan interaksi sosial seperti `like` atau komentar.
     * **Mahasiswi:** Suka menyimpan ide untuk dekorasi kamar atau lainnya. Mereka butuh fitur simpan dan unduh gambar dengan cepat.
 
-#### **3. Fitur Utama**
+#### **4. Fitur Utama**
 Berikut adalah daftar fitur utama yang akan dikembangkan di aplikasi.
 
 * **Fitur Autentikasi**
